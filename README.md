@@ -1,5 +1,5 @@
 # UniShell
-Unishell is a family of php webshells that based on nano shell (https://github.com/s0md3v/nano) which are using khmer unicode characters (ក, ខ, គ) and combinded with YAK pro Php Obfuscator to be more undetectable and silently.
+Unishell is a family of php webshells that based on nano shell (https://github.com/s0md3v/nano) which are using khmer unicode characters (ក, ខ, គ) and combinded with YAK Php Obfuscator to protect the code to be undetectable and silently.
 
 ### None-Obfuscate
 1. Soriya
@@ -44,7 +44,7 @@ Unishell is a family of php webshells that based on nano shell (https://github.c
 ![handler](https://imgur.com/HSb9rbd.png)
 
 ### Obfuscated
-In this code below i used yak to obfuscated it.
+In this code below i used yak to obfuscated.
 
 1. Soriya
 ```php
